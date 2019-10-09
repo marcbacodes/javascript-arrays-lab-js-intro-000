@@ -1,7 +1,7 @@
 var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 
 // Add your functions and code here
-function destructivelyAppendKitten(kittens){
-const newArray=kittens.push("Nasa");
-return newArray;
+function destructivelyAppendKitten(){
+kittens.push("Nasa");
+return kittens;
 }
